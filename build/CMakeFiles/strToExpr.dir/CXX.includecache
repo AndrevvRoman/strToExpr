@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Calculator.hpp
+string
+-
+ReversePolishConverter.hpp
+../include/ReversePolishConverter.hpp
+
+../include/ReversePolishConverter.hpp
+string
+-
+
+../include/Utils.hpp
+vector
+-
+string
+-
+
+/home/romanov_as/strToExpr/src/Calculator.cpp
+Calculator.hpp
+/home/romanov_as/strToExpr/src/Calculator.hpp
+Utils.hpp
+/home/romanov_as/strToExpr/src/Utils.hpp
+string
+-
+exception
+-
+stack
+-
+Utils.hpp
+/home/romanov_as/strToExpr/src/Utils.hpp
+

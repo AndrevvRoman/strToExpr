@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/reversePolishTests.dir/libs/catch/catch.cpp.o CMakeFiles/reversePolishTests.dir/main.cpp.o  -o reversePolishTests  -Wl,-rpath,/home/romanov_as/strToExpr/build ../libstrToExpr.so 
